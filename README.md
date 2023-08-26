@@ -1,35 +1,49 @@
-Student Management System
-Overview
+## THE GDRIVE LINK OF THE CODE IS   https://drive.google.com/drive/folders/1mjBh57U---c2W45LbQQxaVasfCNGb5_j?usp=sharing 
+
+# Student Management System
+
+[Link Project](https://github.com/Shivam9737/Student-Attendance-Management/)
+
+## Overview
+
 The Student Management System is a web application that allows users to manage and track student information, including names, phone numbers, cities, and roll numbers. It also provides an attendance history feature to track student attendance.
 
-Features
-Add Students: Users can add student information, including name, phone number, city, and roll number, using a web form.
+## Features
 
-Display Students: The application displays a table with student information, including a roll number, name, phone number, city, and an option to mark attendance.
+- **Add Students:** Users can add student information, including name, phone number, city, and roll number, using a web form.
 
-Attendance History: Users can view the attendance history of students, filter students by attendance status (Present, Absent, or All), and navigate through the attendance records.
+- **Display Students:** The application displays a table with student information, including a roll number, name, phone number, city, and an option to mark attendance.
 
-Navigation: Users can navigate between the student management and attendance history pages.
+- **Attendance History:** Users can view the attendance history of students, filter students by attendance status (Present, Absent, or All), and navigate through the attendance records.
 
-Technologies Used
-Frontend: React.js is used for building the user interface, and React Router is used for client-side routing. Bootstrap is used for styling.
+- **Navigation:** Users can navigate between the student management and attendance history pages.
 
-Backend: A mock API is used to simulate data fetching for student information and attendance history.
+## Technologies Used
 
-Installation
-Clone the repository:
+- **Frontend:** React.js is used for building the user interface, and React Router is used for client-side routing. Bootstrap is used for styling.
+
+- **Backend:** A mock API is used to simulate data fetching for student information and attendance history.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone (https://github.com/Shivam9737/Student-Attendance-Management/)
+   cd student-management-system
+
+   Install dependencies:
 
 bash
-Copy code
-cd student-management-system
-Install dependencies:
 
-bash
+
 Copy code
 npm install
 Start the development server:
 
 bash
+
+
 Copy code
 npm start
 Usage
@@ -51,14 +65,6 @@ src/components: Contains React components for the Student Management and Attenda
 
 src/styles.css: Contains the CSS styles for the application.
 
-License
-This project is licensed under the MIT License.
 
-Acknowledgments
-Special thanks to Bootstrap for providing the CSS framework.
 
-This project is for educational purposes and serves as a template for building student management systems.
-
-Author
-Shivam Kumar
-Feel free to customize this README template to fit your project's specific details, and be sure to replace placeholders like your-username with your actual information. Additionally, you can include any other relevant information or sections that you think would be helpful for users and contributors of your project.
+   
