@@ -65,6 +65,7 @@ src/components: Contains React components for the Student Management and Attenda
 
 src/styles.css: Contains the CSS styles for the application.
 
-
-
+** Download the students.json got to the terminal and copy paste
+**  "json-server --watch students.json --port 3001"
+for API in History
    
