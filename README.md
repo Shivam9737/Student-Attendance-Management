@@ -1,4 +1,4 @@
-## THE GDRIVE LINK OF THE CODE IS   https://drive.google.com/drive/folders/1mjBh57U---c2W45LbQQxaVasfCNGb5_j?usp=sharing 
+## THE GDRIVE LINK OF THE CODE IS   https://drive.google.com/file/d/1OSYCH0o4Hf05tHhgGqL0utGmpZyMelyy/view?usp=sharing
 
 # Student Management System
 
@@ -38,7 +38,7 @@ bash
 
 
 Copy code
-npm install
+** npm install react react-dom 
 Start the development server:
 
 bash
