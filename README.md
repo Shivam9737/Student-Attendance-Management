@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+Student Management System
+Overview
+The Student Management System is a web application that allows users to manage and track student information, including names, phone numbers, cities, and roll numbers. It also provides an attendance history feature to track student attendance.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Add Students: Users can add student information, including name, phone number, city, and roll number, using a web form.
 
-## Available Scripts
+Display Students: The application displays a table with student information, including a roll number, name, phone number, city, and an option to mark attendance.
 
-In the project directory, you can run:
+Attendance History: Users can view the attendance history of students, filter students by attendance status (Present, Absent, or All), and navigate through the attendance records.
 
-### `npm start`
+Navigation: Users can navigate between the student management and attendance history pages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Technologies Used
+Frontend: React.js is used for building the user interface, and React Router is used for client-side routing. Bootstrap is used for styling.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Backend: A mock API is used to simulate data fetching for student information and attendance history.
 
-### `npm test`
+Installation
+Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+cd student-management-system
+Install dependencies:
 
-### `npm run build`
+bash
+Copy code
+npm install
+Start the development server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy code
+npm start
+Usage
+Add Students: Access the Student Management page and fill out the student information form. Click the "Submit" button to add a student. The added student will appear in the table.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Mark Attendance: On the Student Management page, click the "Present" or "Absent" button to mark a student's attendance.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+View Attendance History: Access the Attendance History page to view and filter the attendance history of students. Use the filter buttons to show all students, present students, or absent students.
 
-### `npm run eject`
+Navigate Between Pages: Use the navigation links to switch between the Student Management and Attendance History pages.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Data Fetching
+Student data is fetched from a mock API endpoint for demonstration purposes. In a real-world scenario, you would replace this with an actual API or database connection.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Attendance history data is also fetched from a mock API endpoint. The data includes student names, dates, and attendance statuses.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Folder Structure
+src/components: Contains React components for the Student Management and Attendance History pages.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+src/styles.css: Contains the CSS styles for the application.
 
-## Learn More
+License
+This project is licensed under the MIT License.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Acknowledgments
+Special thanks to Bootstrap for providing the CSS framework.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is for educational purposes and serves as a template for building student management systems.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author
+Shivam Kumar
+Feel free to customize this README template to fit your project's specific details, and be sure to replace placeholders like your-username with your actual information. Additionally, you can include any other relevant information or sections that you think would be helpful for users and contributors of your project.

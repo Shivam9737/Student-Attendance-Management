@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import StudentForm from './components/StudentForm';
+import { BrowserRouter as Router, Route, Routes,  Navigate } from 'react-router-dom';
+import React, { useState } from 'react';
+import StudentTable from './components/StudentTable';
+import './components/Styles.css';
+import AttendanceHistory from './components/AttendanceHistory';
 
 function App() {
+  const [studentData, setStudentData] = useState([]);
+
+  const addStudent = (studentObj) => {
+    setStudentData([...studentData, studentObj]);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <br></br>
+      <h1>Student Attendance Management</h1><br></br>
+      <Router>
+      <Routes>
+        
+          <Route path="/" element={<StudentForm addStudent={addStudent} />} />
+          <Route path="/attendance-history" element={<AttendanceHistory />} />
+          <Route
+            path="*"
+            element={<Navigate to="/" />} // Redirect to the home page if the route doesn't match
+          />
+          
+        </Routes>
+        </Router>
+      <StudentTable studentData={studentData} />
     </div>
   );
 }

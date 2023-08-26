@@ -1,0 +1,11 @@
+[
+    { "name": "Student 1", "date": "2023-08-30", "status": "Present" },
+    { "name": "Student 3", "date": "2023-08-30", "status": "Absent" },
+    { "name": "Student 4", "date": "2023-08-30", "status": "Absent" },
+    { "name": "Student 5", "date": "2023-08-30", "status": "Absent" },
+    { "name": "Student 6", "date": "2023-08-30", "status": "Absent" },
+    { "name": "Student 7", "date": "2023-08-30", "status": "Absent" },
+    { "name": "Student 8", "date": "2023-08-30", "status": "Absent" },
+    { "name": "Student 9", "date": "2023-08-30", "status": "Absent" },
+    { "name": "Student 10", "date": "2023-08-30", "status": "Absent" }
+  ]

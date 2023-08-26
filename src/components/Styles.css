@@ -1,0 +1,260 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }  
+ 
+  
+  /* Styles for student form */
+  
+  table,
+  td,
+  th {
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  th,
+  td {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  tr > th {
+    background-color: teal;
+    color: white;
+  }
+  
+  .studentData {
+    width: 100%;
+    background-color: green;
+    padding: 15px;
+  }
+  
+  #form1 {
+    margin: auto;
+    width: 80%;
+  }
+  
+  #form1 input {
+    padding: 10px;
+    margin-right: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  #form1 input:focus {
+    outline: none;
+  }
+  
+  .td6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .td6 > button {
+    margin-right: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .td6 > button:nth-child(1) {
+    background-color: green;
+  }
+  
+  .td6 > button:nth-child(2) {
+    background-color: red;
+  }
+  
+  #absent {
+    background-color: red;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 19%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #f0ad4e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+
+
+  tr:hover {
+    background-color: #b5c3d3;
+  }
+  
+  button:hover{
+    background-color: aquamarine;
+  }
+  button {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  button[disabled] {
+    cursor: not-allowed;
+    background-color: #ccc;
+  }
+
+/* styles.css */
+
+/* Container styles */
+.attendance-container {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+/* Header styles */
+.attendance-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  background-color: green;
+}
+ h2{
+  text-align: center;
+  text-emphasis-color: red;
+  background-color: green;
+ }
+ h3{
+  background-color: green;
+ }
+ h4{
+  background-color: green;
+ }
+/* Filter buttons styles */
+.filter-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.filter-buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Table styles */
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-table th,
+.attendance-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.attendance-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.attendance-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Loading message styles */
+.loading-message {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px;
+  color: #888;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .attendance-container {
+    padding: 10px;
+    border-radius: 0;
+  }
+
+  .attendance-header {
+    font-size: 20px;
+  }
+
+  .filter-buttons {
+    text-align: left;
+  }
+
+  .filter-buttons button {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 2px;
+  }
+
+  .attendance-table th,
+  .attendance-table td {
+    padding: 8px;
+  }
+}
+
+
