@@ -25,47 +25,14 @@ The Student Management System is a web application that allows users to manage a
 - **Backend:** A mock API is used to simulate data fetching for student information and attendance history.
 
 ## Installation
+1.Download The code from GDRIVE
 
-1. Clone the repository:
+2.extract the code
 
-   ```bash
-   git clone (https://github.com/Shivam9737/Student-Attendance-Management/)
-   cd student-management-system
+3.OPEN vs code and open folder new and type cd attendance in vs code than ## npm start
 
-   Install dependencies:
+4. for the backend open vs code and open folder server than write the following in the terminal
 
-bash
-
-
-Copy code
-** npm install react react-dom 
-Start the development server:
-
-bash
-
-
-Copy code
-npm start
-Usage
-Add Students: Access the Student Management page and fill out the student information form. Click the "Submit" button to add a student. The added student will appear in the table.
-
-Mark Attendance: On the Student Management page, click the "Present" or "Absent" button to mark a student's attendance.
-
-View Attendance History: Access the Attendance History page to view and filter the attendance history of students. Use the filter buttons to show all students, present students, or absent students.
-
-Navigate Between Pages: Use the navigation links to switch between the Student Management and Attendance History pages.
-
-Data Fetching
-Student data is fetched from a mock API endpoint for demonstration purposes. In a real-world scenario, you would replace this with an actual API or database connection.
-
-Attendance history data is also fetched from a mock API endpoint. The data includes student names, dates, and attendance statuses.
-
-Folder Structure
-src/components: Contains React components for the Student Management and Attendance History pages.
-
-src/styles.css: Contains the CSS styles for the application.
-
-** Download the students.json got to the terminal and copy paste
 **  "json-server --watch students.json --port 3001"
 for API in History
    
